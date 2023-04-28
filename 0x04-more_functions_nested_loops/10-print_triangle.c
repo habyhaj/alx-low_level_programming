@@ -1,6 +1,6 @@
- #include "main.h"
+#include "main.h"
 
- /**
+/**
  * print_triangle - prints a triangle
  * @size : integer type
  * Return:void
@@ -16,7 +16,7 @@ void print_triangle(int size)
 		ii = 0;
 		while (ii < size - i)
 		{
-			_putchar(' ');
+			-putchar(' ');
 			ii++;
 		}
 		ii = 0;
@@ -26,11 +26,11 @@ void print_triangle(int size)
 			ii++;
 		}
 
-		 _putchar('\n');
+		_putchar('\n');
 		i++;
 	}
 	if (i == 1)
-{
+	{
 		_putchar('\n');
-}
+	}
 }
