@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - a function that prints the sum of d1
- * the two diagonals of a square matrix of intergers
- * @a: pointer to the array
- * @size: size of the array
- * Return: returns nothing
- */
+* print_diagsums - a function that prints the sum of
+* the two diagonals of a square matrix of integers
+* @a: pointer to the array
+* @size: size of the array
+* Return: returns nothing
+*/
 void print_diagsums(int *a, int size)
 {
 	int i;
@@ -17,7 +17,7 @@ void print_diagsums(int *a, int size)
 	for (i = 0; i < size; i++)
 	{
 		d1 += a[(size * m) + m];
-		m++
+		m++;
 	}
 	for (i = 0; i < size; i++)
 	{
@@ -25,5 +25,5 @@ void print_diagsums(int *a, int size)
 		n++;
 		p++;
 	}
-	printf("%1d, %1d\n", d1, d2);
+	printf("%ld, %ld\n", d1, d2);
 }
