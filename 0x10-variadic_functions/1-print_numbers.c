@@ -1,4 +1,4 @@
-#include "variadic_funtions.h"
+#include "variadic_functions.h"
 
 /**
  * print_numbers - prints numbers followed by a new line
@@ -7,7 +7,7 @@
  * Return: Always 0
  */
 
-void print_numbers(const char *separator, const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	va_list ap;
